@@ -16,3 +16,22 @@
     @include linkFade;
   }
 }
+
+/* Navbar ******************************************************************* */
+
+.nav-link {
+  font-family: $font-primary !important;
+  color: $color-main !important;
+  font-size: 1rem !important;
+  font-weight: 600;
+
+  &:hover {
+    color: $color-accent !important;
+    text-decoration: none;
+  }
+
+  @include isXLarge {
+    margin-right: 0;
+    padding: 0 !important;
+  }
+}
