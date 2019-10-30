@@ -1,3 +1,63 @@
 /* ************************************************************************** */
 /* Top Bar ****************************************************************** */
 /* ************************************************************************** */
+.topbar {
+  padding: 0.3rem 1rem;
+
+  @include isRetina {
+    padding: .5rem 0;
+  }
+
+  .containerish {
+    display: grid;
+    grid-template-columns: max-content 1fr;
+
+    .col-left {
+      display: flex;
+      justify-content: space-between;
+
+      .topbar-link:not(:last-child) {
+        margin-right: .5rem;
+      }
+    }
+
+    .col-middle {
+      display: none;
+
+      .topbar-lead-copy {
+        font-family: $font-primary;
+        font-size: 0.8125rem;
+        font-weight: 700;
+      }
+    }
+
+    .col-right {
+      display: flex;
+      justify-content: flex-end;
+    }
+
+    @include isLarge {
+      grid-template-columns: 30px 1fr max-content;
+
+      .col-middle {
+        display: flex;
+        justify-content: center;
+      }
+
+      .col-right {
+        .topbar-link:not(:last-child) {
+          margin-right: .5rem;
+        }
+      }
+    }
+
+    @include isXLarge {
+      grid-template-columns: max-content 1fr .5fr;
+
+      .col-middle {
+        display: flex;
+        justify-content: flex-end;
+      }
+    }
+  }
+}
