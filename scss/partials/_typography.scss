@@ -1,0 +1,122 @@
+/* ************************************************************************** */
+/* Typography *************************************************************** */
+/* ************************************************************************** */
+@import "https://use.fontawesome.com/releases/v5.4.1/css/all.css";
+@import url('https://fonts.googleapis.com/css?family=Lora:400,400i,700|Open+Sans:300,300i,400,400i,600,700&display=swap');
+
+$font-primary: 'Open Sans',
+sans-serif;
+$font-secondary: 'Lora',
+serif;
+
+// General Font Setup
+// Headers
+h1,
+h2,
+h3,
+h4,
+h5 h6 {
+  margin: 0 !important;
+}
+
+/* Primary Header */
+h1 {
+  font-family: $font-secondary;
+  font-size: 3.75rem; // 60px
+  line-height: 3.75rem;
+  font-weight: 400;
+
+
+  &.is-bold {
+    font-weight: 700;
+  }
+
+  &.is-italic {
+    font-style: italic;
+  }
+}
+
+h2 {
+  font-family: $font-secondary;
+  font-size: 3.125rem; // 50px
+  line-height: 3.125rem;
+  font-weight: 400;
+
+  &.is-italic {
+    font-style: italic;
+  }
+}
+
+h3 {
+  font-family: $font-secondary;
+  font-size: 2.5rem; // 40px
+  line-height: 2.5rem;
+  font-weight: 500;
+}
+
+h4 {
+  //Used in event section
+  font-family: $font-secondary;
+  font-size: 1.875rem; // 30px
+  line-height: 1.875rem;
+  font-weight: 400;
+
+}
+
+h5,
+h6 {
+  //Used in event section
+  font-family: $font-secondary;
+  font-size: 1.5625rem; // 25px
+  line-height: 1.5625rem;
+  font-weight: 400;
+}
+
+
+//Body Text
+.body-copy {
+  font-size: 1.3125rem; // 20px
+  line-height: calc(1.3125rem * 1.5);
+  font-family: $font-primary;
+  font-weight: 400;
+
+  &.is-bold {
+    font-weight: 700;
+  }
+}
+
+/* Lead Text (hero) */
+// .lead-copy {
+//   font-size: 1rem; // 16px
+//   line-height: 2rem;
+//   font-family: $font-primary;
+//   font-weight: 300;
+// }
+
+/* Footer2 Text */
+.small-copy {
+  font-weight: 300;
+  font-size: 12px;
+  line-height: calc(12px * 1.5);
+  font-family: $font-primary;
+
+  &.is-semibold {
+    font-weight: 600;
+  }
+
+  &.is-bold {
+    font-weight: 700;
+  }
+}
+
+/* Text Modifiers */
+.wrap-75 {
+  width: 100%;
+  max-width: 650px;
+  margin: 0 auto;
+}
+
+input {
+  font-family: $font-primary;
+  font-weight: 300;
+}
