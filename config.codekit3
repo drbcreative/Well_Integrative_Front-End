@@ -180,6 +180,17 @@
 		"opt": 1,
 		"q": 100
 		},
+	"/images/footer-logo.png": {
+		"ft": 32768,
+		"iS": 39832,
+		"oA": 0,
+		"oAP": "/images/footer-logo.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
 	"/images/footer-logo.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -189,6 +200,17 @@
 		"opt": 0,
 		"plM": 52780316221407,
 		"prP": 0
+		},
+	"/images/footer-logo@2x.png": {
+		"ft": 32768,
+		"iS": 96765,
+		"oA": 0,
+		"oAP": "/images/footer-logo@2x.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
 		},
 	"/images/hero-bg@2x.jpg": {
 		"ft": 16384,
@@ -212,6 +234,17 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/images/logo.png": {
+		"ft": 32768,
+		"iS": 19488,
+		"oA": 0,
+		"oAP": "/images/logo.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/images/logo.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -221,6 +254,17 @@
 		"opt": 0,
 		"plM": 52780316221407,
 		"prP": 0
+		},
+	"/images/logo@2x.png": {
+		"ft": 32768,
+		"iS": 49307,
+		"oA": 0,
+		"oAP": "/images/logo@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"/images/map@2x.jpg": {
 		"ft": 16384,

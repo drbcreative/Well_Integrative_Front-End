@@ -19,11 +19,11 @@
 
 .navbar {
   .nav-logo {
-    max-width: 240.82;
+    width: 240.82px;
     transition: all .3s ease-in-out;
 
     &.show {
-      max-width: calc(240.82px - 20%);
+      width: 180px;
       transition: all .3s ease-in-out;
     }
   }
@@ -33,6 +33,7 @@
     align-items: flex-start;
 
     .navbar-collapse {
+      // width: 100%;
       padding-top: 1rem;
     }
   }

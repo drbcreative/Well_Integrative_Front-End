@@ -100,6 +100,7 @@
         @extend .body-copy;
         color: $color-main;
         font-size: 1rem;
+        // line-height: 0;
       }
 
       input[type="text"] {

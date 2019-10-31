@@ -4,10 +4,10 @@ const navWrapper = document.querySelector('.nav-wrapper'),
 
 window.addEventListener('resize', () => {
   if (window.innerWidth < 992) {
-    navLogo.classList.remove('d-lg-none');
+    navLogo.classList.remove('show');
   } else if (window.innerWidth >= 992 && window.scrollY === 0) {
     navWrapper.classList.remove('show');
-    navLogo.classList.add('d-lg-none');
+    navLogo.classList.add('show');
 
   }
 });
