@@ -276,3 +276,79 @@
     }
   }
 }
+
+/* autoimmune conditions **************************************************** */
+.autoimmune {
+  background: url('../../images/auto-immune-bg@2x.jpg') center / cover;
+  height: 95vh;
+  width: 100%;
+  position: relative;
+  align-items: center;
+
+  @include isXLarge {
+    height: 1000px;
+  }
+
+  .containerish {
+    position: absolute;
+    bottom: 50%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    width: calc(100% - 40px);
+    background: $color-white;
+    border-radius: 45px;
+    padding: 2rem;
+
+    @include isMedium {
+      bottom: 0;
+      transform: translate(-50%, 10%);
+    }
+
+    @include isLarge {
+      bottom: 0;
+      transform: translate(-50%, 20%);
+    }
+
+    @include isRetina {
+      width: 100%;
+      max-width: 1200px;
+    }
+
+    .section-info {
+      text-align: center;
+
+      p {
+        max-width: 1000px;
+        margin: 0 auto;
+      }
+    }
+  }
+}
+
+/* gi illness *************************************************************** */
+.gi-illness {
+  background: url('../../images/chronic-illness-bg@2x.jpg') center / cover;
+  padding: 20px 0;
+
+  @include isRetina {
+    padding: 20px 0 40px 0;
+  }
+
+  .containerish {
+    width: calc(100% - 40px);
+
+    .section-info {
+      margin-top: 2rem;
+      text-align: center;
+
+      p {
+        max-width: 1000px;
+        margin: 0 auto;
+      }
+    }
+
+    @include isRetina {
+      max-width: calc(100% - 40px);
+    }
+  }
+}
