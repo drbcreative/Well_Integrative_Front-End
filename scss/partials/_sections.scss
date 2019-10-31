@@ -168,3 +168,54 @@
     }
   }
 }
+
+/* integrative aesthetics *************************************************** */
+.int-aes {
+  background: url('../../images/int-aesthetics-bg@2x.jpg') center top / cover;
+  height: 85vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  padding: 0 20px;
+
+  @include isMedium {
+    align-items: flex-end;
+  }
+
+  @include isLarge {
+    height: 978px;
+  }
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: $color-main;
+    mix-blend-mode: multiply;
+
+    @include isLarge {
+      background: transparent;
+    }
+  }
+
+  .containerish {
+    z-index: 50;
+
+    .section-info {
+      @include isMedium {
+        margin-bottom: 2rem;
+      }
+
+      @include isLarge {
+        margin-bottom: 5rem;
+        max-width: 648px;
+      }
+    }
+  }
+}
+
+/* integrative aesthetics *************************************************** */
