@@ -4,15 +4,28 @@
 .nav-wrapper {
   background: rgba($color-white, 0);
   position: relative;
+  transition: all .3s ease-in-out;
 
   .container {
     position: relative;
+  }
+
+  &.show {
+    background: rgba($color-white, 1);
+    transition: all .3s ease-in-out;
+    box-shadow: 0 6px 8px rgba($color-black, .1);
   }
 }
 
 .navbar {
   .nav-logo {
     max-width: 240.82;
+    transition: all .3s ease-in-out;
+
+    &.show {
+      max-width: calc(240.82px - 20%);
+      transition: all .3s ease-in-out;
+    }
   }
 
   @include isXLarge {

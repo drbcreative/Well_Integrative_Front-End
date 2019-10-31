@@ -4,7 +4,7 @@
 
 /* hero ********************************************************************* */
 .hero {
-  background: url('../../images/hero-bg@2x.jpg') center / cover;
+  background: url('../images/hero-bg@2x.jpg') center / cover;
   height: calc(100vh - 138.57px);
   position: relative;
   padding: 0 20px;
@@ -125,7 +125,7 @@
 
 /* about us ***************************************************************** */
 .about-us {
-  background: url('../../images/about-us-bg@2x.jpg') center / cover;
+  background: url('../images/about-us-bg@2x.jpg') center / cover;
   padding: 40px 20px;
 
   @include isMedium {
@@ -171,7 +171,7 @@
 
 /* integrative aesthetics *************************************************** */
 .int-aes {
-  background: url('../../images/int-aesthetics-bg@2x.jpg') center top / cover;
+  background: url('../images/int-aesthetics-bg@2x.jpg') center top / cover;
   height: 85vh;
   display: flex;
   align-items: center;
@@ -279,7 +279,7 @@
 
 /* autoimmune conditions **************************************************** */
 .autoimmune {
-  background: url('../../images/auto-immune-bg@2x.jpg') center / cover;
+  background: url('../images/auto-immune-bg@2x.jpg') center / cover;
   height: 95vh;
   width: 100%;
   position: relative;
@@ -327,7 +327,7 @@
 
 /* gi illness *************************************************************** */
 .gi-illness {
-  background: url('../../images/chronic-illness-bg@2x.jpg') center / cover;
+  background: url('../images/chronic-illness-bg@2x.jpg') center / cover;
   padding: 20px 0;
 
   @include isRetina {
@@ -355,7 +355,7 @@
 
 /* chronic fatigue ********************************************************** */
 .chronic-fatigue {
-  background: url('../../images/chronic-fatigue-bg@2x.jpg') center top / cover;
+  background: url('../images/chronic-fatigue-bg@2x.jpg') center top / cover;
   height: 95vh;
   position: relative;
 
@@ -412,7 +412,7 @@
 
 /* journey ****************************************************************** */
 .journey {
-  background: url('../../images/appointment-bg@2x.jpg') center / cover;
+  background: url('../images/appointment-bg@2x.jpg') center / cover;
   display: flex;
   align-items: center;
   justify-content: center;

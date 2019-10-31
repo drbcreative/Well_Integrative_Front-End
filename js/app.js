@@ -1,15 +1,23 @@
-const navToggle = document.querySelector('#nav-toggle'),
-  navMenu = document.querySelector('.nav-menu');
-
-// Event Listener
-navToggle.addEventListener('click', () => {
-  navMenu.classList.toggle('show');
-});
+/* Menu Background & Scroll Top */
+const navWrapper = document.querySelector('.nav-wrapper'),
+  navLogo = document.querySelector('.nav-logo');
 
 window.addEventListener('resize', () => {
-  winWidth = window.innerWidth;
-  if (winWidth > 992) {
-    navMenu.classList.remove('show');
-  }
+  if (window.innerWidth < 992) {
+    navLogo.classList.remove('d-lg-none');
+  } else if (window.innerWidth >= 992 && window.scrollY === 0) {
+    navWrapper.classList.remove('show');
+    navLogo.classList.add('d-lg-none');
 
+  }
+});
+
+window.addEventListener('scroll', () => {
+  if (window.innerWidth >= 992 && window.scrollY > 50) {
+    navWrapper.classList.add('show');
+    navLogo.classList.add('show');
+  } else if (window.innerWidth >= 992 && window.scrollY < 100) {
+    navWrapper.classList.remove('show');
+    navLogo.classList.remove('show');
+  }
 });
