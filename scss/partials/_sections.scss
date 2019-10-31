@@ -1,11 +1,170 @@
 /* ************************************************************************** */
 /* Main Page Sections ******************************************************* */
 /* ************************************************************************** */
+
+/* hero ********************************************************************* */
 .hero {
   background: url('../../images/hero-bg@2x.jpg') center / cover;
   height: calc(100vh - 138.57px);
+  position: relative;
+  padding: 0 20px;
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: $color-main;
+    mix-blend-mode: multiply;
+  }
+
+  @include isMedium {
+    height: calc(100vh - 144.57px);
+  }
+
+  @include isLarge {
+    &::before {
+      background-color: transparent;
+    }
+  }
 
   @include isXLarge {
-    height: calc(100vh - 51px);
+    height: 100vh;
+  }
+
+  .containerish {
+    display: flex;
+    align-items: center;
+    height: inherit;
+
+    @include isMedium {
+      align-items: flex-end;
+    }
+
+    .section-info {
+      z-index: 50;
+      max-width: 825px;
+
+      @include isMedium {
+        margin-bottom: 4rem;
+      }
+
+      @include isLarge {
+        width: 60%;
+      }
+
+      @include isXLarge {
+        width: 80%;
+      }
+
+      @include isXLarge {
+        margin-bottom: 8rem;
+      }
+    }
+  }
+
+}
+
+/* search ******************************************************************* */
+.search {
+  height: auto;
+
+  @include isLarge {
+    position: absolute;
+    height: 80px;
+    top: calc(100vh - 40px);
+    width: 100%;
+    z-index: 888;
+  }
+
+  .containerish {
+    background-color: $color-white;
+    padding: 1rem 20px;
+    border-radius: 5px;
+    box-shadow: 0 10px 40px rgba($color-black, .1);
+
+    form {
+      width: 100%;
+      display: grid;
+      row-gap: .5rem;
+
+      @include isLarge {
+        grid-template-columns: 1fr 100px;
+        row-gap: 0;
+        column-gap: 1rem;
+      }
+
+      input::placeholder {
+        @extend .body-copy;
+        color: $color-main;
+        font-size: 1rem;
+      }
+
+      input[type="text"] {
+        background-color: #EDF1EF;
+        border-radius: 25px;
+        border: none;
+        padding: .6rem 1rem;
+        width: 100%;
+        height: 40px;
+      }
+
+      button {
+        margin: 0;
+        height: 40px;
+        line-height: none;
+        padding: 0;
+        background-color: $color-accent;
+        border: none;
+      }
+    }
+  }
+}
+
+/* about us ***************************************************************** */
+.about-us {
+  background: url('../../images/about-us-bg@2x.jpg') center / cover;
+  padding: 40px 20px;
+
+  @include isMedium {
+    padding: 60px 20px;
+  }
+
+  @include isLarge {
+    padding: 80px 20px 60px 20px;
+  }
+
+  @include isXLarge {
+    padding: 6rem 20px 60px 20px;
+  }
+
+  .containerish {
+    display: grid;
+    row-gap: 1rem;
+
+    @include isMedium {
+      grid-template-columns: 1fr 1fr;
+      column-gap: 1rem;
+    }
+
+    @include isXLarge {
+      row-gap: 3rem;
+    }
+
+    .section-info {
+      justify-self: center;
+      text-align: center;
+      max-width: 885px;
+
+      @include isMedium {
+        grid-column: 1 / -1;
+      }
+
+      .body-copy {
+        text-align: center;
+      }
+    }
   }
 }

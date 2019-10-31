@@ -81,17 +81,6 @@
 		"oF": 0,
 		"oS": 3
 		},
-	"/images/about-us-bg.jpg": {
-		"ft": 16384,
-		"iS": 32140,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/images/about-us-bg.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
 	"/images/about-us-bg@2x.jpg": {
 		"ft": 16384,
 		"iS": 108567,
@@ -100,18 +89,7 @@
 		"oAP": "/images/about-us-bg@2x.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/images/about-us-img-1.jpg": {
-		"ft": 16384,
-		"iS": 72165,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/images/about-us-img-1.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/images/about-us-img-1@2x.jpg": {
@@ -125,17 +103,6 @@
 		"opt": 0,
 		"q": 100
 		},
-	"/images/about-us-img-2.jpg": {
-		"ft": 16384,
-		"iS": 48952,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/images/about-us-img-2.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
 	"/images/about-us-img-2@2x.jpg": {
 		"ft": 16384,
 		"iS": 118787,
@@ -144,18 +111,7 @@
 		"oAP": "/images/about-us-img-2@2x.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/images/appointment-bg.jpg": {
-		"ft": 16384,
-		"iS": 21216,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/images/appointment-bg.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/images/appointment-bg@2x.jpg": {
@@ -164,17 +120,6 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/images/appointment-bg@2x.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/images/auto-immune-bg.jpg": {
-		"ft": 16384,
-		"iS": 264501,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/images/auto-immune-bg.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -191,34 +136,12 @@
 		"opt": 0,
 		"q": 100
 		},
-	"/images/chronic-fatigue-bg.jpg": {
-		"ft": 16384,
-		"iS": 245620,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/images/chronic-fatigue-bg.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
 	"/images/chronic-fatigue-bg@2x.jpg": {
 		"ft": 16384,
 		"iS": 737624,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/images/chronic-fatigue-bg@2x.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/images/chronic-illness-bg.jpg": {
-		"ft": 16384,
-		"iS": 64244,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/images/chronic-illness-bg.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -235,34 +158,12 @@
 		"opt": 0,
 		"q": 100
 		},
-	"/images/chronic-illness-img.jpg": {
-		"ft": 16384,
-		"iS": 114656,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/images/chronic-illness-img.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
 	"/images/chronic-illness-img@2x.jpg": {
 		"ft": 16384,
 		"iS": 337763,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/images/chronic-illness-img@2x.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/images/footer-2-bg.jpg": {
-		"ft": 16384,
-		"iS": 16889,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/images/footer-2-bg.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -289,34 +190,12 @@
 		"plM": 52780316221407,
 		"prP": 0
 		},
-	"/images/hero-bg.jpg": {
-		"ft": 16384,
-		"iS": 115780,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/images/hero-bg.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
 	"/images/hero-bg@2x.jpg": {
 		"ft": 16384,
 		"iS": 346287,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/images/hero-bg@2x.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/images/int-aesthetics-bg.jpg": {
-		"ft": 16384,
-		"iS": 146324,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/images/int-aesthetics-bg.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -343,34 +222,12 @@
 		"plM": 52780316221407,
 		"prP": 0
 		},
-	"/images/map.jpg": {
-		"ft": 16384,
-		"iS": 25808,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/images/map.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
 	"/images/map@2x.jpg": {
 		"ft": 16384,
 		"iS": 75205,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/images/map@2x.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/images/med-wellness-6months-img.jpg": {
-		"ft": 16384,
-		"iS": 33683,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/images/med-wellness-6months-img.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -387,34 +244,12 @@
 		"opt": 0,
 		"q": 100
 		},
-	"/images/med-wellness-9months-img.jpg": {
-		"ft": 16384,
-		"iS": 30511,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/images/med-wellness-9months-img.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
 	"/images/med-wellness-9months-img@2x.jpg": {
 		"ft": 16384,
 		"iS": 84415,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/images/med-wellness-9months-img@2x.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/images/med-wellness-access-img.jpg": {
-		"ft": 16384,
-		"iS": 30437,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/images/med-wellness-access-img.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,

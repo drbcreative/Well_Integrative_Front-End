@@ -24,10 +24,12 @@
   color: $color-main !important;
   font-size: 1rem !important;
   font-weight: 600;
+  @include linkFade;
 
   &:hover {
     color: $color-accent !important;
     text-decoration: none;
+    @include linkFade;
   }
 
   @include isXLarge {

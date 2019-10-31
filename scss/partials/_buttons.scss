@@ -25,8 +25,13 @@
   align-items: center;
   width: 100%;
   margin-bottom: 0.5rem;
-  border-radius: 50%;
+  border-radius: 50px;
   @include btn-fade;
+
+  @include isLarge {
+    width: auto;
+    padding: 1rem 2rem;
+  }
 }
 
 /* Main Button Color ******************************************************** */
@@ -58,7 +63,7 @@
 }
 
 /* Accent Button Color ****************************************************** */
-.ui-btn-acacent {
+.ui-btn-accent {
   background-color: $color-accent;
   border: 1px solid $color-accent;
   color: $color-white;

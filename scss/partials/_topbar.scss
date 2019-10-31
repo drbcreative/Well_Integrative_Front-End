@@ -54,6 +54,14 @@
       }
     }
 
+    @include isRetina {
+      .col-right {
+        .topbar-link:not(:last-child) {
+          margin-right: 1rem;
+        }
+      }
+    }
+
     @include isXLarge {
       grid-template-columns: max-content 1fr .5fr;
       align-items: center;
