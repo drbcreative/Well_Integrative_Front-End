@@ -409,3 +409,22 @@
     }
   }
 }
+
+/* journey ****************************************************************** */
+.journey {
+  background: url('../../images/appointment-bg@2x.jpg') center / cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 20px;
+
+  @include isXLarge {
+    height: 298px;
+  }
+
+  .containerish {
+    .section-info {
+      text-align: center;
+    }
+  }
+}
